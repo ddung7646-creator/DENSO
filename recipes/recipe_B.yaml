@@ -3,12 +3,18 @@ part_name: "TODO part B"
 version: "1.0"
 created_by: C
 updated_at: "2026-09-28"
+
 pick:
   pick_offset_mm: [0.0, 0.0, 0.0]
   jaw_width_mm: 0.0
   grip_setting_proxy: 0.0
   approach_speed_pct: 0.0
+
 transfer:
   transfer_speed_pct: 0.0
-place: {place_slot_id: "slot_1", place_offset_mm: [0.0, 0.0, 0.0]}
+
+place:
+  place_slot_id: "slot_1"
+  place_offset_mm: [0.0, 0.0, 0.0]
+
 notes: "TODO: grip point, approach angle from human demo"
